@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
 import MainViewModel from 'view_models/main';
-
+import { Button, Typography } from '@mui/material';
+import './style.css'; 
 const MainView: React.FC = () => {
   const viewModel = MainViewModel();
   return (
     <div>
-      <h1>Main View</h1>
-      <button onClick={viewModel.incrementCounter}>Click me</button>
-      <p>Counter: {viewModel.total}</p>
+      <Typography className="customTitle" variant="h4" gutterBottom>
+        Main View
+      </Typography>
+      <Button  className="customButton" variant="contained"  onClick={viewModel.incrementCounter}>Click me</Button>
+      <Typography variant="body1" gutterBottom>
+        Counter: {viewModel.total}
+      </Typography>
     </div>
   );
 };

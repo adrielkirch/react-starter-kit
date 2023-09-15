@@ -1,0 +1,10 @@
+.customButton {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Define a class for the title */
+  .customTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
