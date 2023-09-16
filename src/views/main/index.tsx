@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import MainViewModel from 'view_models/view_model_exemple';
+import React from 'react';
+import MainViewModel from 'view_models/view_model';
 import { Button, Typography } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add'; 
 import RemoveIcon from '@mui/icons-material/Remove';
