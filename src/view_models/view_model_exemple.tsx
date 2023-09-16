@@ -9,11 +9,14 @@ const MainViewModel = (): any => {
 
   const incrementCounter = () => {
     setTotal(total + 1);
-
+  }
+  const decrementCounter = () => {
+    setTotal(total - 1);
   }
   return {
     total,
     incrementCounter,
+    decrementCounter,
     setCounter,
   };
 };

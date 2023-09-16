@@ -1,10 +1,23 @@
-.customButton {
-    background-color: blue;
-    color: white;
-  }
-  
-  /* Define a class for the title */
-  .customTitle {
-    font-size: 24px;
-    font-weight: bold;
-  }
+/* style.css */
+.primaryButton {
+  background-color: black !important; /* Use !important to ensure this rule takes precedence */
+  color: white !important;
+}
+
+.errorButton {
+  background-color: red !important;
+  color: white !important;
+}
+
+/* Define a class for the title */
+.customTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  margin-bottom: 16px;
+}
